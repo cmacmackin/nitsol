@@ -1,0 +1,13 @@
+
+ Usage:  "make <target>", with several target options available:
+
+      target           action
+   ---------------------------------------------------------------------
+    < none >      create all libraries and serial examples
+    nitsol_lib    create the NITSOL library
+    bratu         create the Bratu example problem
+    cavity        create the driven cavity example problem
+    pormed        create the flow in porous media example problem
+    clean         delete all executables and object files
+    veryclean     make clean, plus delete all libraries
+    remake        make veryclean, plus create all libraries and examples
